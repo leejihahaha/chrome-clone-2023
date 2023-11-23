@@ -1,7 +1,7 @@
 // navigator함수는 유저의 위치를 준다.
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
-const API_KEY = "f8c9c64222b25d08d3b22996cc2970e8";
+const API_KEY =
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;
